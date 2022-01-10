@@ -14,7 +14,7 @@ body {
 }
 .images{
   
-  align: right;
+  box-align: center;
 }
 .img-polish{
 border: 5px solid;
@@ -35,8 +35,7 @@ width: 400px;
 .img-deer{
   margin: 20px;
   border: 5px solid;
-  width: 400px;
-
+  width: 450px;
 }
 
 
