@@ -41,9 +41,10 @@ width: 25%;
 }
 article{
   display: flex;
+  flex-direction: column;
   font-family: 'Times New Roman', Times, serif;
   margin-left: 5em;
-  text-align: center;
+  text-align: left;
   background-color: azure;
   width: 80%;
 }
