@@ -13,29 +13,45 @@ body {
 
 }
 .images{
+  display: flex;
+  justify-content:space-around;
   
-  box-align: center;
+  
 }
 .img-polish{
 border: 5px solid;
-width: 400px;
+width: 20%;
 margin: 20px;
 }
 .img-cat{
   margin: 20px;
   border: 5px solid;
-width: 400px;
+width: 25%;
 
 }
 .img-dog{
   margin: 20px;
   border: 5px solid;
-  width: 400px;
+  width: 20%;
 }
 .img-deer{
   margin: 20px;
   border: 5px solid;
-  width: 450px;
+  width: 20%;
 }
-
+article{
+  display: flex;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 5em;
+  text-align: center;
+  background-color: azure;
+  width: 80%;
+}
+.election2020{
+  background-color:azure;
+  text-overflow: center;
+}
+.aricle-title{
+  color:red;
+}
 
