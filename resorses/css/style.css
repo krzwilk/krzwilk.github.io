@@ -41,12 +41,16 @@ width: 25%;
 }
 article{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap:nowrap;
   font-family: 'Times New Roman', Times, serif;
   margin-left: 5em;
   text-align: left;
   background-color: azure;
   width: 80%;
+}
+.img-DeeTee{
+  float: left;
 }
 .election2020{
   background-color:azure;
