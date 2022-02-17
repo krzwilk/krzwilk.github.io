@@ -2,10 +2,11 @@ h1 {
   text-align: center;
   font-family:Arial, Helvetica, sans-serif;
   font-size:60px;
-  color:rgb(204, 96, 132);
+  color:#000000;
+  background-image: url("../images/flag2.jpeg");
   }
 body {
-  background-image: url(../images/swamp.jpg);
+  /*background-image: url(../images/swamp.jpg);*/
   background-color:rgb(116, 147, 148);
   background-repeat: no-repeat;
   background-position: center;
@@ -20,7 +21,7 @@ body {
 }
 .img-polish{
 border: 5px solid;
-width: 20%;
+width: 80%;
 margin: 20px;
 }
 .img-cat{
@@ -40,19 +41,34 @@ width: 25%;
   width: 20%;
 }
 article{
+  display:flex;
   text-align: center;
   
 }
 .article1{
-  display: flex;
+  /*display: flex;
   flex-direction: row;
-  flex-wrap:nowrap;
+  flex-wrap:nowrap;*/
   font-family: 'Times New Roman', Times, serif;
-  margin-left: 5em;
+  margin: 0.5rem;
   text-align: left;
-  background-color: azure;
-  width: 80%;
-
+  background-color: rgb(236, 241, 241);
+  width: 40%;
+}
+.article2, .h2{
+  background-color:rgb(190, 219, 57)
+}
+.img-DeeTee{
+  margin: 0.5rem;
+}
+.article2{
+  width:60%;
+  margin: 0.5rem;
+}
+.dotrump-xi{
+  max-width: 350px;
+  margin:0.5rem;
+  float: left;
 }
 .img-DeeTee{
   float: left;
@@ -63,5 +79,13 @@ article{
 }
 .aricle-title{
   color:red;
+}
+.article2 p{
+  background-color:rgb(236, 241, 241);
+  margin-left:0.5rem;
+}
+b{
+  color:#ff0000;
+  font-style: italic;
 }
 
