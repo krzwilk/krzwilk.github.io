@@ -88,6 +88,14 @@ b{
 color:#340fb9;
   font-style: italic;
 }
+.fun-section{
+  display:flex;
+  justify-content:space-around;
+}
+.fun-section img{
+  margin:0.5rem;
+  max-width:45%;
+}
 @media (max-width:800px) {
   article{
     flex-direction: column;
