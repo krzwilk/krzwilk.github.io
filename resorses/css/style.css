@@ -85,7 +85,7 @@ article{
   margin-left:0.5rem;
 }
 b{
-  color:#340fb9;
+color:#340fb9;
   font-style: italic;
 }
 @media (max-width:800px) {
@@ -93,6 +93,8 @@ b{
     flex-direction: column;
     max-width: 100%;    
   }
+
+
   .article1{
     width: 100%;
   }
