@@ -85,7 +85,7 @@ article{
   margin-left:0.5rem;
 }
 b{
-  color:#ff0000;
+  color:green;
   font-style: italic;
 }
 @media (max-width:800px) {
