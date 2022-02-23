@@ -96,6 +96,9 @@ color:#340fb9;
   margin:0.5rem;
   max-width:45%;
 }
+p{
+  text-indent: 40px;
+}
 @media (max-width:800px) {
   article{
     flex-direction: column;
